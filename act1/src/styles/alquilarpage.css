@@ -1,0 +1,58 @@
+/* Estilo para la página de alquiler */
+.rental-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .rental-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .rental-form label {
+    font-weight: bold;
+  }
+  
+  .rental-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .rental-form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .rental-form .btn:disabled {
+    background-color: #ccc;
+  }
+  
+  .book-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .book-info img {
+    max-height: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .book-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .book-info p {
+    font-size: 18px;
+    color: #555;
+  }
+  

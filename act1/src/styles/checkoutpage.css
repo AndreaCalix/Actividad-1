@@ -1,0 +1,111 @@
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Títulos principales */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo de los encabezados dentro del formulario */
+  h4 {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para la lista de libros en el carrito */
+  .list-group {
+    margin-bottom: 30px;
+  }
+  
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
+  
+  /* Políticas de alquiler */
+  .mb-4 p {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .mb-4 ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .mb-4 li {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  /* Formulario de alquiler */
+  form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo de los campos del formulario */
+  .form-label {
+    font-size: 1.1rem;
+    color: #495057;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo del botón de confirmar alquiler */
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Botón de confirmar alquiler */
+  button[type="submit"]:focus {
+    outline: none;
+  }
+  
+  /* Estilo para el botón de volver */
+  .btn-back {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0.25rem;
+    font-size: 1.1rem;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+  }
+  
+  .btn-back:hover {
+    background-color: #5a6268;
+  }
+  
+  
