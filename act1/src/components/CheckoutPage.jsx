@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import '../styles/checkoutpage.css';  // Importa el archivo CSS
+import '../styles/checkoutpage.css'; 
 
 const CheckoutPage = () => {
   const { state } = useLocation();
@@ -10,14 +10,14 @@ const CheckoutPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('¡Alquiler realizado con éxito!');
-    navigate('/'); // Redirige a la página principal después de alquilar
+    navigate('/'); 
   };
 
   return (
     <div className="container">
       <h1 className="my-4">Formulario de Alquiler</h1>
 
-      {/* Listado de libros en el carrito */}
+
       <ul className="list-group mb-4">
         {cart.map((item) => (
           <li key={item.id} className="list-group-item">
@@ -26,7 +26,7 @@ const CheckoutPage = () => {
         ))}
       </ul>
 
-      {/* Información sobre las políticas de alquiler */}
+ 
       <div className="mb-4">
         <h4>Políticas de Alquiler</h4>
         <p>
@@ -40,7 +40,7 @@ const CheckoutPage = () => {
         </ul>
       </div>
 
-      {/* Formulario de alquiler */}
+   
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Nombre</label>
